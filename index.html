@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo das Meninas!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bingo das Meninas!</h1>
+
+        <div>
+            <p>
+                Clique em <strong>Iniciar Bingo!</strong> para o jogo sortear números de 1 a 60 automaticamente.<br>
+                Cada jogadora marca os números na sua cartela e quando completar sua cartela, <strong>Bingo!!!</strong>.
+            </p>
+        </div>
+
+        <div id="numeros-sorteados">
+            <h2>Números Sorteados:</h2>
+            <ul id="lista-numeros"></ul>
+        </div>
+
+        <div class="botoes">
+            <button id="btn-iniciar">Iniciar Bingo!</button>
+            <button id="btn-bingo" disabled>Bingo!</button>
+            <button id="btn-reiniciar" disabled>Reiniciar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
