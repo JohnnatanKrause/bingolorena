@@ -6,25 +6,28 @@ O sistema sorteia números automaticamente de 1 a 60, exibe os resultados na tel
 Inclui botões para **iniciar**, **declarar bingo** (com som de vitória 🎉) e **reiniciar** a partida.  
 
 ---
+## 🌐 Demo Online Você pode jogar diretamente pelo GitHub Pages: 👉 [BingoLorena Online](https://johnnatankrause.github.io/bingolorena/)
 
-## 🚀 Como usar
+
+## 🚀 Como usar localmente
 1. Clone o repositório:
    ```bash
    git clone git@github.com:JohnnatanKrause/bingolorena.git
-Abra o arquivo index.html no navegador.
+- Abra o arquivo index.html no navegador.
 
-Clique em Iniciar Bingo! para começar o sorteio.
+- Clique em Iniciar Bingo! para começar o sorteio.
 
-Quando completar sua cartela, clique em Bingo! para vencer.
+- Quando completar sua cartela, clique em Bingo! para vencer.
 
-Use Reiniciar para começar uma nova partida.
+- Use Reiniciar para começar uma nova partida.
 
 📂 Estrutura do projeto
 Código
 bingolorena/
-├── index.html      # Estrutura principal do jogo
-├── style.css       # Estilos e layout
-└── script.js       # Lógica do sorteio e interações
+
+*    index.html      # Estrutura principal do jogo
+*    style.css       # Estilos e layout
+*    script.js       # Lógica do sorteio e interações
 
 ✨ Funcionalidades
 Sorteio automático de números de 1 a 60.
